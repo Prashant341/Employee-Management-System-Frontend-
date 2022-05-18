@@ -19,7 +19,7 @@ const Signup = () => {
     if (input.password.length >= 8) {
       axios
         .post(
-          "https://employee-management-system-backend.vercel.app/employee/signup",
+          "https://employee-management-system-frontend-eta.vercel.app/employee/signup",
           input
         )
         .then((response) => setAlert(response.data));

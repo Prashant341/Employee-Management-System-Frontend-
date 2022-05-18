@@ -19,7 +19,7 @@ const Signin = ({ setToken, setAdmin }) => {
     event.preventDefault();
     axios
       .post(
-        "https://employee-management-system-backend.vercel.app/admin/signin",
+        "https://employee-management-system-frontend-eta.vercel.app/admin/signin",
         input
       )
       .then((response) => {

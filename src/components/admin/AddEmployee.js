@@ -25,7 +25,7 @@ const AddEmployee = ({ getToken }) => {
     if (input.password.length >= 8) {
       axios
         .post(
-          "https://employee-management-system-backend.vercel.app/admin/add",
+          "https://employee-management-system-frontend-eta.vercel.app/admin/add",
           input,
           {
             headers: {

@@ -14,7 +14,7 @@ const AdminDashboard = ({ getToken, getAdmin }) => {
   useEffect(() => {
     axios
       .get(
-        "https://employee-management-system-backend.vercel.app/admin/getall",
+        "https://employee-management-system-frontend-eta.vercel.app/admin/getall",
         {
           headers: {
             "Content-Type": "application/json",
@@ -28,7 +28,7 @@ const AdminDashboard = ({ getToken, getAdmin }) => {
   });
   const deleteEmployee = (id) => {
     axios.delete(
-      `https://employee-management-system-backend.vercel.app/admin/delete/${id}`,
+      `https://employee-management-system-frontend-eta.vercel.app/admin/delete/${id}`,
       {
         headers: {
           "Content-Type": "application/json",
